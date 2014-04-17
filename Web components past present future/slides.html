@@ -84,56 +84,6 @@ class: center, middle
 .shocked[![shocked](kramer-shocked.gif)]
 ## .. are not a new idea
 ---
-# Web components past
-![Past](past.jpg)
----
-class: center, middle
-
-# In the beginning of web MVC frameworks...
-.creation[![creation](creation.jpg)]
----
-class: center, middle
-# "Classic" MVC
----
-class: center, middle
-# Focused on mapping urls to server side code
----
-# It's your job
-## To deal with params
-## Put them onto domain objects
-## Update things in the view
----
-# Views in classic MVC frameworks
-## Templates that let you embed code in HTML
-## Helpers that output HTML
----
-# Examples
-## Too numerous to shake a stick at...
-### Struts
-### SpringMVC
-### Play
-### ASP.NET
-### Zend
-### Rails
----
-class: center, middle
-# Can we do better?
----
-class: center, middle
-# What if we could respond to user interaction directly?
-## rather than based on which URL the browser was requesting
----
-class: center, middle
-# What if we could map UI elements to domain objects?
-### rather than dealing with params
----
-class: center, middle
-# What if we work with POHTML?
-### rather than putting code in our HTML to confuse our designers
----
-class: center, middle
-# Declarative vs imperative
----
 # Server side component oriented frameworks
 ## WebObjects - 1995
 ## Tapestry - 2000
@@ -155,7 +105,7 @@ class: center, middle
 # Bi-directional api
 ---
 class: center, middle
-# Binding
+# Encapsulation
 ---
 class: center, middle
 # Composable
@@ -167,14 +117,7 @@ class: center, middle
 # Ecosystems
 ---
 class: center, middle
-# And everyone lived..
-![happily](happilyeverafter.jpg)
----
-class: center, middle
 # Server side component frameworks are not the .strikethru[future] present
----
-#Web components present
-![Present](present.jpg)
 ---
 class: center, middle
 # What if we could have components in the browser?
@@ -197,12 +140,6 @@ class: center, middle
 # Angular [ecosystem](http://ngmodules.org/)
 ---
 class: center, middle
-# [Fancy grid](http://plnkr.co/edit/50vJrs?p=preview)
----
-# Web components future
-![future](future.jpg)
----
-class: center, middle
 # What if we could have web components in the browser in the browser?
 ---
 class: center, middle
@@ -212,7 +149,7 @@ class: center, middle
 ## Templates
 ## Shadow DOM
 ## Custom elements
-## Imports
+## HTML Imports
 ---
 # Templates
 ## a standard DOM-based approach for client-side templating
@@ -238,7 +175,10 @@ function addComment(imageUrl, text) {
 ```
 ---
 # Shadow DOM
+![chokula](countchoc.jpg)
 ## Encapsulation for HTML and CSS
+---
+# Moar Shadow DOM
 ## Exposes APIs the browsers [already had!](http://www.rbyers.net/chrome-builtin-shadowdom.html)
 ## Enable Show Shadow DOM in chrome to see it
 ---
@@ -256,6 +196,9 @@ function addComment(imageUrl, text) {
 ## Pulls out chunks from original subtree to put in Shadow DOM
 ## Specify css selector with select attribute
 ## [Let's see!](http://jsbin.com/OwOfoTap/2/edit?html,javascript  )
+---
+class: middle, center
+# Shadow DOM Visualizer
 ---
 # Custom Elements
 ## Define and register your own elements
@@ -290,6 +233,10 @@ class: middle, center
 ```
 ## Perfect for bundling custom elements!
 ---
+class: middle, center
+# Putting it all [togetherer](./name_badge_example.html)
+
+---
 # Polymer
 ## bringing the future closer
 ## polyfills for modern browsers
@@ -297,10 +244,8 @@ class: middle, center
 ---
 <iframe src="architecture-diagram.svg"></iframe>
 ---
-# Polymer demo
----
 class: center, middle
-# Let's see [some](http://customelements.io)
+# Let's see [one](https://github.com/robdodson/mark-down)
 ---
 # Resources
 ## https://github.com/gaslight/codemash2014
